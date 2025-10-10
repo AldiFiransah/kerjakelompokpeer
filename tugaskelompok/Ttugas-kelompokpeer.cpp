@@ -61,10 +61,10 @@ int main(){
         cout << "masukkan nama panggilan kamu: ";
         cin >> nama;
         
-        cout << "masukan angka keberuntungan kamu: ";
+        cout << "masukan angka keberuntungan kamu (1-10): ";
         cin >> angka;
         
-        int mood = (angka * nama.length() * 3) ;
+        int mood = (angka * nama.length() * 2) ;
         cout << endl;
         
         cout << "Hai, " << nama << "! Mood kamu hari ini sekitar " << mood << "%" << endl;
@@ -107,3 +107,4 @@ int main(){
     return 0;
     
 }
+
