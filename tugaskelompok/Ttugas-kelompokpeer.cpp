@@ -74,7 +74,7 @@ int main(){
             playlistbutterflyera();
         }
         else if (mood >=75 && mood <=79){
-            cout << "kamu lagi penuh semangat nih yuk dengar playlist angkotnya " << endl;
+            cout << "kamu lagi penuh semangat nih yuk dengar playlist angkotnya (¬_¬")" << endl;
             playlisthobah();
         }
         else if (mood >=55 && mood <=74){
@@ -82,15 +82,15 @@ int main(){
             playlisttenang();
         }
         else if (mood >=40 && mood <=54){
-            cout << "kayaknya kamu lagi banyak pikiran coba dengerin lagu dari playlist ini deh" << endl;
+            cout << "kayaknya kamu lagi banyak pikiran coba dengerin lagu dari playlist ini deh (ᵕ—ᴗ—)" << endl;
             playlistmelamun();
         }
         else if(mood >=30 && mood <=39){
-            cout << "cie belum moveon lagu ini kayaknya cocok untuk nemenin kamu" << endl;
+            cout << "cie belum moveon lagu ini kayaknya cocok untuk nemenin kamu 𐔌՞ ܸ.ˬ.ܸ՞𐦯" << endl;
             playlistgamon();
         }
         else if(mood >=0 && mood <= 29){
-            cout << "mood kamu lagi jelek nih, kalau mau ditemenin nagins lagu ini cocok buat kamu" << endl;
+            cout << "mood kamu lagi jelek nih, kalau mau ditemenin nagins lagu ini cocok buat kamu (◞‸◟)" << endl;
             playlistsedih();
         }
         else {
@@ -107,4 +107,5 @@ int main(){
     return 0;
     
 }
+
 
