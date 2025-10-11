@@ -74,7 +74,7 @@ int main(){
             playlistbutterflyera();
         }
         else if (mood >=75 && mood <=79){
-            cout << "kamu lagi penuh semangat nih yuk dengar playlist angkotnya (¬_¬")" << endl;
+            cout << "kamu lagi penuh semangat nih yuk dengar playlist angkotnya (¬_¬)" << endl;
             playlisthobah();
         }
         else if (mood >=55 && mood <=74){
@@ -107,5 +107,6 @@ int main(){
     return 0;
     
 }
+
 
 
